@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     results = model.train(
         data='data.yaml',
-        epochs=30,
+        epochs=60,
         imgsz=640,
         
         # Truyền danh sách device vừa tạo vào đây
@@ -30,7 +30,7 @@ if __name__ == '__main__':
         
         # QUAN TRỌNG: Tăng batch size lên
         # Nếu 1 GPU chịu được batch 16, thì 4 GPU nên để batch = 16 * 4 = 64
-        batch=16 * gpu_count if gpu_count > 0 else 16,
+        batch=32 * gpu_count if gpu_count > 0 else 16,
         
         freeze=10  # (Tùy chọn) Freeze backbone nếu cần
     )
