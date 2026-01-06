@@ -1,0 +1,13 @@
+# data.yaml
+path: "dataset"                               # Đường dẫn gốc (root path)
+train: "train/images"                         # Đường dẫn tương đối tới ảnh train
+val: "val/images"                             # Đường dẫn tương đối tới ảnh val
+
+# Classes
+nc: 4                                         # Số lượng class (number of classes)
+names: [                                      # Tên các class (tương ứng id 0 và 1)
+  "person",
+  "bicycle",
+  "motorcycle",
+  "car"
+]                         
