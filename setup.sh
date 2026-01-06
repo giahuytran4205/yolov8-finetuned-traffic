@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install -y python3 python-pip
+apt install -y python3 python2-pip
 
 mkdir dataset
 

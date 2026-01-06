@@ -4,10 +4,10 @@ import random
 
 # --- CẤU HÌNH ĐƯỜNG DẪN ---
 # Thư mục gốc hiện tại (chứa images và labels)
-source_root = r'D:\GHuy\Job\datasets\part_5\part_5'
+source_root = r'D:\GHuy\Job\datasets\part_5_noido\part_5'
 
 # Thư mục MỚI sẽ được tạo ra để chứa dữ liệu train/val
-dest_root = r'D:\GHuy\Job\datasets\tools\tool\dataset' 
+dest_root = r'D:\GHuy\Job\yolov8-fine-tuned\dataset'
 
 # Tỉ lệ chia (0.8 = 80% Train, 20% Val)
 train_ratio = 0.8 
