@@ -32,5 +32,5 @@ if __name__ == '__main__':
         # Nếu 1 GPU chịu được batch 16, thì 4 GPU nên để batch = 16 * 4 = 64
         batch=16 * gpu_count if gpu_count > 0 else 16,
         
-        freeze=24  # (Tùy chọn) Freeze backbone nếu cần
+        freeze=10  # (Tùy chọn) Freeze backbone nếu cần
     )
