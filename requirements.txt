@@ -1,1 +1,3 @@
 ultralytics
+pytorch
+huggingface_hub
